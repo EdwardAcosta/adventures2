@@ -1,0 +1,45 @@
+/*
+Error: Invalid property: "Backtrace:" (no value).
+        on line 4 of ./css
+
+1: /*
+2: Errno::ENOENT: No such file or directory @ rb_sysopen - scss
+3: 
+4: Backtrace:
+5: /Users/edwardacosta/.rvm/gems/ruby-2.4.6/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:454:in `read'
+6: /Users/edwardacosta/.rvm/gems/ruby-2.4.6/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:454:in `update_stylesheet'
+7: /Users/edwardacosta/.rvm/gems/ruby-2.4.6/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+8: /Users/edwardacosta/.rvm/gems/ruby-2.4.6/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `each'
+9: /Users/edwardacosta/.rvm/gems/ruby-2.4.6/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+
+Backtrace:
+./css:4
+/Users/edwardacosta/.rvm/gems/ruby-2.4.6/gems/sass-3.7.4/lib/sass/engine.rb:755:in `parse_property'
+/Users/edwardacosta/.rvm/gems/ruby-2.4.6/gems/sass-3.7.4/lib/sass/engine.rb:707:in `parse_property_or_rule'
+/Users/edwardacosta/.rvm/gems/ruby-2.4.6/gems/sass-3.7.4/lib/sass/engine.rb:666:in `parse_line'
+/Users/edwardacosta/.rvm/gems/ruby-2.4.6/gems/sass-3.7.4/lib/sass/engine.rb:539:in `build_tree'
+/Users/edwardacosta/.rvm/gems/ruby-2.4.6/gems/sass-3.7.4/lib/sass/engine.rb:558:in `block in append_children'
+/Users/edwardacosta/.rvm/gems/ruby-2.4.6/gems/sass-3.7.4/lib/sass/engine.rb:557:in `each'
+/Users/edwardacosta/.rvm/gems/ruby-2.4.6/gems/sass-3.7.4/lib/sass/engine.rb:557:in `append_children'
+/Users/edwardacosta/.rvm/gems/ruby-2.4.6/gems/sass-3.7.4/lib/sass/engine.rb:417:in `_to_tree'
+/Users/edwardacosta/.rvm/gems/ruby-2.4.6/gems/sass-3.7.4/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+/Users/edwardacosta/.rvm/gems/ruby-2.4.6/gems/sass-3.7.4/lib/sass/engine.rb:307:in `render_with_sourcemap'
+/Users/edwardacosta/.rvm/gems/ruby-2.4.6/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
+/Users/edwardacosta/.rvm/gems/ruby-2.4.6/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/edwardacosta/.rvm/gems/ruby-2.4.6/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/edwardacosta/.rvm/gems/ruby-2.4.6/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/edwardacosta/.rvm/gems/ruby-2.4.6/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:443:in `on_file_changed'
+/Users/edwardacosta/.rvm/gems/ruby-2.4.6/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:320:in `block in watch'
+/Users/edwardacosta/.rvm/gems/ruby-2.4.6/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
+/Users/edwardacosta/.rvm/gems/ruby-2.4.6/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:115:in `_process_changes'
+/Users/edwardacosta/.rvm/gems/ruby-2.4.6/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:19:in `block in loop_for'
+/Users/edwardacosta/.rvm/gems/ruby-2.4.6/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop'
+/Users/edwardacosta/.rvm/gems/ruby-2.4.6/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop_for'
+/Users/edwardacosta/.rvm/gems/ruby-2.4.6/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:84:in `_wait_for_changes'
+/Users/edwardacosta/.rvm/gems/ruby-2.4.6/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:42:in `block in setup'
+/Users/edwardacosta/.rvm/gems/ruby-2.4.6/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `block in add'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid property: \"Backtrace:\" (no value).\A         on line 4 of ./css\A \A 1: /*\A 2: Errno::ENOENT: No such file or directory @ rb_sysopen - scss\A 3: \A 4: Backtrace:\A 5: /Users/edwardacosta/.rvm/gems/ruby-2.4.6/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:454:in `read'\A 6: /Users/edwardacosta/.rvm/gems/ruby-2.4.6/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:454:in `update_stylesheet'\A 7: /Users/edwardacosta/.rvm/gems/ruby-2.4.6/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'\A 8: /Users/edwardacosta/.rvm/gems/ruby-2.4.6/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `each'\A 9: /Users/edwardacosta/.rvm/gems/ruby-2.4.6/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'"; }

@@ -10,9 +10,9 @@
  * files in this directory. Styles in this file should be added after the last require_* statement.
  * It is generally better to create a new file per style scope.
  */
-=require_tree .
-= require_self
-*/ 
+/*=require_tree .
+= require_self*/
+ 
 $font-stack:    Helvetica, sans-serif;
 $primary-color: #333;
 
@@ -20,3 +20,47 @@ body {
   font: 100% $font-stack;
   color: $primary-color;
 }
+body {font-family: 'sans-serif', cursive;}
+
+/*single selector*/
+h1 {
+	background-color: green;
+	color: #cbe11e;	
+		
+}
+/*speudo selector*/
+h1:hover {
+	font-size: 1em;
+	background-color: blue;
+}
+
+/*combinator selectors
+this example finds all the p tags that are in  a div*/
+div p{
+	color: white;
+	background-color: grey;
+}
+​
+/* multiple selectors
+touches all divs and all p tags*/
+div, p {
+	color: white;
+	background-color: purple;
+}
+​
+​
+li {
+	color:red;
+	font-size: 3.5em;
+}
+
+a {
+	text-decoration: none;
+}
+​
+a:hover {
+	text-decoration: none;
+	color: red;
+}
+
+
